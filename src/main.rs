@@ -63,7 +63,7 @@ fn main() {
         }
         }
 
-        if std::mem::discriminant(&game_map[playerpos]) == std::mem::discriminant(&StaticObject::Coin) {
+        if let game_map[playerpos] = StaticObject::Coin {
             game_map[playerpos] = StaticObject::None;
             playercoins = playercoins + 1
         }
