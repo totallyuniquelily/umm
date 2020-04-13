@@ -4,26 +4,16 @@ use std::io::BufRead;
 extern crate rand;
 use rand::Rng;
 
-mod 
-    #[derive(Copy,Clone)]
 
-    pub enum StaticObject {
-        None,
-        Net,
-        PlayerRepresent,
-        Coin,
-    }
+#[derive(Copy,Clone)]
+enum StaticObject {
+    None,
+    Net,
+    PlayerRepresent,
+    Coin,
 }
 
 fn main() {
-    #[derive(Copy,Clone)]
-    enum StaticObject {
-        None,
-        Net,
-        PlayerRepresent,
-        Coin,
-    }
-
     const GMPSIZE:usize = 5;
 
     let mut playerpos: usize = 0;
