@@ -2,7 +2,7 @@
 
 This is actually a port of a game I made once when trying to learn/practice Python.
 It's not fun or anything, but you can use it as an example of (probably bad) Rust code.
-Note: The terminal interaction here is straight up just printing a new line.
+Note: The terminal interaction consist merely of reading and printing lines (no overwriting).
 
 ## The game
 The following is largely based on my memory, and I haven't played it in a long time, so there may be inaccuracies.
