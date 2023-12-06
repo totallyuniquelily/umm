@@ -70,7 +70,6 @@ fn main() {
                 }
             );
         }
-        print! {" {}", playercoins}
-        println!();
+        println!(" {}", playercoins);
     }
 }
